@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elements</title>
+
+    <style>
+        .para1{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+        .para1::first-line{
+            color: red;
+        }
+        .para1::first-letter{
+            color: blue;
+            font-size: 50px;
+        }
+        /* 
+        .para1::after{ buda paragraf sonun ekleme yapmanı sağlar.
+            content: url();
+        }
+        .para1::after{
+            content: "Paragraf öncesine ekler";
+        }
+        */
+    </style>
+</head>
+<body>
+    <p class="para1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore iure temporibus minima nam reprehenderit placeat illum? Repellat, sapiente eos natus, vero aperiam et assumenda voluptates eaque voluptate cum asperiores laboriosam consectetur totam voluptatem culpa, labore ut ad nam dolor nesciunt eius temporibus eveniet deserunt aliquam? Autem eos suscipit repellat enim earum eligendi nobis sapiente, voluptatibus sequi eum velit quisquam debitis ea omnis quam possimus rerum deserunt repudiandae minima distinctio totam ipsam ducimus et neque! Necessitatibus, dolore perferendis quo et doloremque quod vitae commodi nobis cumque, voluptas quia quaerat dolores at totam, ipsam maiores qui! Quod rerum iusto rem quae dignissimos.
+    </p>
+</body>
+</html>
